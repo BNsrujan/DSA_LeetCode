@@ -1,7 +1,7 @@
 class Solution {
     public int arithmeticTriplets(int[] nums, int diff) {
         int count = 0;
-        List<Integer> list = new ArrayList<>();
+        Set<Integer> list = new HashSet<>();
         for(int i:nums){
             list.add(i);
         }
